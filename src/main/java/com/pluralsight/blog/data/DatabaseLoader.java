@@ -36,7 +36,7 @@ public class DatabaseLoader implements ApplicationRunner {
                 new Author("efisher", "Eric",  "Fisher", "password"),
                 new Author("csouza", "Carlos",  "Souza", "password")
         ));
-        
+
         authorRepository.saveAll(authors);
 
         IntStream.range(0,40).forEach(i->{
