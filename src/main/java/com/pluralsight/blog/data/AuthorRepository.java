@@ -6,6 +6,5 @@ import com.pluralsight.blog.model.Author;
 import javax.persistence.ManyToOne;
 
 public interface AuthorRepository extends JpaRepository<Author, Long> {
-    @ManyToOne(fetch = FetchType.EAGER)
 
 }
